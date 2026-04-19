@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.main{
+    height: 100vh;
+    background-color: #271E19;
+    padding-top: 80px;
+    font-family: "Press Start 2P", system-ui;
+    align-content: space-between;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.images div{
+    display: grid;
+    width: 32%;
+}
+
+.images div div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.title{
+    color: aliceblue;
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.text{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 70%;
+}
+
+
+
+@media(max-width: 1010px) {
+    .main{
+        background-image: url("./books_2.jpg");
+        background-size: cover;
+        background-color: none;
+        align-content: end;
+    }
+
+    .images{
+        display: none;
+    }
+
+    .container{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 850px) {
+    .title{
+        font-size: 67px;
+    }
+}
+
+@media(max-width: 660px) {
+    .title{
+        font-size: 50px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 400px) {
+    .title{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+}
