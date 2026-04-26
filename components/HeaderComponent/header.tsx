@@ -1,27 +1,25 @@
 import Image from "next/image"
+import Link from 'next/link';
 import styles from "./header.module.css"
 
 export default function Header(){
     return(
         <header className={styles.header}>
-            <a href="/">
+            <Link href="/">
                 <Image
                     src={`${process.env.basePath}/vercel.svg`}
                     alt="Logo"
                     width={20}
                     height={20}
                 />
-            </a>
+            </Link>
             <div className={styles.links}>
-                <a href="/blog">
+                <Link href="/blog">
                     БЛОГ
-                </a>
-                <a href="/dictionary">
+                </Link>
+                <Link href="/dictionary/phrasal-verbs">
                     СЛОВАРЬ
-                </a>
-                <a href="/practice">
-                    ПРАКТИКА
-                </a>
+                </Link>
             </div>
             
         </header>
