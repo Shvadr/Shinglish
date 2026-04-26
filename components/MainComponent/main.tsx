@@ -6,7 +6,7 @@ export default function Main(){
         <main className={styles.main}>
             <div className={styles.images}>
                 <Image 
-                    src={`${process.env.basePath}/books_2.svg`}
+                    src="./books_2.svg"
                     alt="images"
                     width = {300}
                     height = {300}
@@ -16,14 +16,14 @@ export default function Main(){
                 <div>
                     <div>
                         <Image 
-                        src={`${process.env.basePath}/books_1.svg`}
+                        src="./books_1.svg"
                         alt="images"
                         width = {300}
                         height = {300}
                         style={{width: "43%"}}
                         />
                         <Image 
-                        src={`${process.env.basePath}/books_3.svg`}
+                        src="./books_3.svg"
                         alt="images"
                         width = {300}
                         height = {300}
@@ -32,14 +32,14 @@ export default function Main(){
                     </div>
                     <div>
                         <Image 
-                        src={`${process.env.basePath}/books_3.svg`}
+                        src="./books_3.svg"
                         alt="images"
                         width = {300}
                         height = {300}
                         style={{width: "43%"}}
                         />
                         <Image 
-                        src={`${process.env.basePath}/books_1.svg`}
+                        src="./books_1.svg"
                         alt="images"
                         width = {300}
                         height = {300}
@@ -48,7 +48,7 @@ export default function Main(){
                     </div>
                 </div>
                 <Image 
-                    src={`${process.env.basePath}/books_4.svg`}
+                    src="./books_4.svg"
                     alt="images"
                     width = {300}
                     height = {300}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.main{
+    font-family: "Press Start 2P", system-ui;
+    color: #2E1A07;
+    background-color: #DCBE9C;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.link{
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.link li{
+    width: 80px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #2E1A07;
+    border-radius: 17%;
+}
+
+.idioms li{
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.slang li{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #2E1A07;
+    border-radius: 17%;
+    width: 270px;
+}
+
+@media(max-width: 569px) {
+    .title{
+        font-size: 17px;
+    }
+
+    .idioms li{
+        font-size: 11px;
+        margin-left: 30px;
+    }
+
+    .slang li{
+        font-size: 11px;
+        margin-left: 30px;
+        width: 190px;
+    }
+}
